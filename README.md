@@ -15,7 +15,7 @@ eller star wars api: https://swapi.dev/
 
 I listevisning fetches pokemons (`https://pokeapi.co/api/v2/pokemon`) eller Star Wars karaterer (`https://swapi.dev/api/people`), og udskrives med et link rundt om hver pokemon eller Star Wars karakter. Ved at klikke på linket, skal brugeren vises en ny side (fx. `detail.html`), som viser mere uddybende detaljer om den enkelte pokemon eller karakter. Ved hjælp af et url-parameter skal du videresende information til `detail.html` hvilken en af pokemon'erne eller karaktererne brugeren har klikket på. Hvis du bruger pokemon api'et kan du hente én pokemon ved hjælp af dens navn, så her ser din url måske sådan ud: 
 ```
-http://127.0.0.1:5500/destination.html?name=ivysaur
+http://127.0.0.1:5500/detalje.html?name=ivysaur
 ```
 
 Du skal nu "fiske" navnet ud af url'en og fetche data om `ivysaur` og præsentere Pokemonen på siden.
