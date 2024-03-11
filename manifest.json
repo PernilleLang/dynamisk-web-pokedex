@@ -1,0 +1,15 @@
+{
+    "name": "PokeDex",
+    "short_name": "PokeDex",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Pokemon Index",
+    "icons": [
+        {
+            "src": "/Pokemon/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
